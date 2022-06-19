@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #121212;
+    min-width: 100%;
+    font-family: 'Source Code Pro', monospace;
+}
+.center .avatar img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top: 4%;
+    object-fit: cover;
+}
+.center{
+    text-align: center;
+    margin-top: 4%;
+}
+.content{
+    padding: 30px;
+}
+.content h1{
+    color: #e83e84;
+}
+.content h2, p{
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 70%;
+    margin: 10px auto;
+}
+.content h2{
+    font-weight: 400;
+    color: white;
+}
+.content p{
+    color: white;
+}
+.content h4{
+    margin-top: 75px;
+    color: white;
+    font-weight: 300;
+}
+.content h4 a{
+    color: white;
+    text-decoration: none;
+}
+.content h4 a:hover{
+    color: #e83e84;
+    text-decoration: none;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    height: auto;
+    width: 100%;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i.fa-brands.fa-twitter{
+    color: #08a0e9;
+}
+.socials a:hover i.fa-solid.fa-envelope{
+    color: #e83e84;
+}
+.socials a:hover i.fa-brands.fa-github{
+    color: #333;
+}

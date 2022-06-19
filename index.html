@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ryuuzedev</title>
+        <link href=assets/icon.png rel=icon type=image/x-icon>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <div class="center">
+            <div class="avatar">
+                <img src="assets/pfp.jpg" alt="pfp">
+            </div>
+            <div id="content">
+                <div class="content">
+                    <h1>{{ h1 }}</h1>
+                    <h2>{{ h2 }}</h2>
+                    <p>{{ p }}</p>
+                    <h4>&copy; <a href="https://ryuuze.dev/LICENSE">{{ a }}</a></h4>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-content">
+                    <ul class="socials">
+                        <li><a href="https://twitter.com/ryuuzedev"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="mailto:suryapradipta982@gmail.com"><i class="fa-solid fa-envelope"></i></a></i></li>
+                        <li><a href="https://github.com/ryuuze"><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+
+            <script>
+              new Vue({
+                el: "#content",
+                data: {
+                  h1: "Surya Pradipta",
+                  h2: "Web Developer",
+                  p: "I'm a web developer. My hobbies are listening to music and playing games. I sometimes spend my day experimenting with HTML, CSS and JavaScript",
+                  a: "Ryuuze",
+                },
+              })
+            </script>
+        </div>
+    </body>
+</html>
